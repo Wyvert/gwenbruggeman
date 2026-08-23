@@ -26,3 +26,54 @@ p {
   font-size: 1.15rem;
   line-height: 1.6;
 }
+
+.hero {
+  min-height: 100vh;
+  padding: clamp(2rem, 7vw, 6rem);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.eyebrow {
+  margin: 0;
+  font-size: 0.75rem;
+  font-weight: bold;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 2.5rem 0;
+  max-width: 1000px;
+}
+
+h1 em {
+  color: var(--coral);
+  font-weight: normal;
+}
+
+.intro {
+  max-width: 650px;
+  margin: 0 0 2rem;
+
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.25rem;
+}
+
+.button {
+  align-self: flex-start;
+  display: inline-block;
+
+  padding: 1rem 1.5rem;
+  background: var(--coral);
+  color: var(--ink);
+
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
