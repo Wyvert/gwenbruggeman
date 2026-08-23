@@ -7,6 +7,13 @@
   --silver:#b7bec0;
   --line:rgba(32,35,39,.18)}
 
+@font-face{
+  font-family:"Escafil";
+  src:url("fonts/Escafil.ttf") format("truetype");
+  font-style:normal;
+  font-weight:400;
+  font-display:swap}
+
 
 *{
   box-sizing:border-box}
@@ -374,6 +381,12 @@ a{
 
 .books-card{
   background:rgba(183,190,192,.08)}
+
+.books-card h3{
+  font-family:"Escafil",Georgia,serif;
+  font-size:32px;
+  font-weight:400;
+  letter-spacing:.01em}
 
 .scope-note{
   grid-column:2;
