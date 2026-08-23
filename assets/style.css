@@ -1124,3 +1124,32 @@ a{
   }
 }
 
+/* Final narrow-screen corrections. Keep these last so they win the cascade. */
+@media (max-width: 620px) {
+  .site-header .button-small {
+    display: none;
+  }
+
+  .site-header {
+    min-height: 68px;
+  }
+
+  .hero {
+    padding-top: 48px;
+    padding-bottom: 64px;
+  }
+
+  .hero-kicker {
+    max-width: 290px;
+    margin-bottom: 32px;
+    font-size: 9px;
+    line-height: 1.5;
+  }
+
+  .hero h1 {
+    font-size: clamp(38px, 12vw, 50px);
+    line-height: 1;
+    letter-spacing: -0.05em;
+  }
+}
+
