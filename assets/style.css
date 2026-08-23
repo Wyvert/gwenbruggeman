@@ -1,11 +1,11 @@
 :root{
-  --ink:#20252a;
-  --forest:#415e52;
-  --paper:#f2f0ea;
+  --ink:#101d2c;
+  --navy:#10263b;
+  --paper:#f3efe6;
   --white:#fffdf8;
-  --plum:#6c405a;
-  --sage:#b7c9c0;
-  --line:rgba(32,37,42,.18)}
+  --coral:#ff6b5e;
+  --blue:#a9d3e8;
+  --line:rgba(16,29,44,.18)}
 
 
 *{
@@ -36,7 +36,7 @@ a{
   padding:0 max(24px,calc((100vw - 1180px)/2));
   gap:34px;
   border-bottom:1px solid var(--line);
-  background:rgba(242,240,234,.94);
+  background:rgba(243,239,230,.94);
   position:relative;
   z-index:10}
 
@@ -69,7 +69,7 @@ a{
   font-weight:700}
 
 .site-header nav a:hover,.site-footer a:hover{
-  color:var(--plum)}
+  color:var(--coral)}
 
 
 .button{
@@ -79,12 +79,12 @@ a{
   justify-content:space-between;
   gap:28px;
   padding:0 20px;
-  background:var(--plum);
-  color:var(--white);
+  background:var(--coral);
+  color:#111927;
   font-size:13px;
   font-weight:800;
   letter-spacing:.02em;
-  border:1px solid var(--plum);
+  border:1px solid var(--coral);
   transition:transform .18s,box-shadow .18s}
 
 .button:hover{
@@ -102,7 +102,7 @@ a{
   border-color:var(--ink)}
 
 .button.dark:hover{
-  box-shadow:5px 5px 0 var(--plum)}
+  box-shadow:5px 5px 0 var(--coral)}
 
 .text-link{
   display:inline-flex;
@@ -146,7 +146,7 @@ a{
   max-width:1050px}
 
 .hero h1 em{
-  color:var(--plum);
+  color:var(--coral);
   font-weight:400}
 
 .hero-bottom{
@@ -183,7 +183,7 @@ a{
   right:0;
   width:9px;
   height:9px;
-  background:var(--plum);
+  background:var(--coral);
   border-radius:50%}
 
 .signal-line i{
@@ -227,7 +227,7 @@ a{
   border:0}
 
 .proof-strip b{
-  color:var(--sage);
+  color:var(--blue);
   font-family:Georgia,serif;
   font-size:21px}
 
@@ -279,11 +279,11 @@ a{
 
 .project-number{
   font-family:Georgia,serif;
-  color:var(--plum);
+  color:var(--coral);
   font-style:italic}
 
 .project-tag{
-  color:#65776e;
+  color:#547082;
   font-size:9px!important;
   font-weight:900;
   letter-spacing:.15em;
@@ -300,19 +300,19 @@ a{
   font-size:13px;
   line-height:1.65;
   margin:0;
-  color:#4f5a54}
+  color:#405262}
 
 .all-projects{
   display:flex;
   justify-content:space-between;
-  background:var(--plum);
+  background:var(--coral);
   padding:22px 25px;
   font-weight:800;
   font-size:13px}
 
 
 .services-section{
-  background:var(--forest);
+  background:var(--navy);
   color:#fff;
   padding:130px 0 70px}
 
@@ -322,7 +322,7 @@ a{
   gap:90px}
 
 .section-intro.light .lede{
-  color:#d4ddd8}
+  color:#c9d5dc}
 
 .service-grid{
   display:grid;
@@ -345,8 +345,8 @@ a{
   place-items:center;
   width:54px;
   height:38px;
-  border:1px solid var(--plum);
-  color:var(--plum);
+  border:1px solid var(--coral);
+  color:var(--coral);
   font-size:10px;
   letter-spacing:.1em;
   font-weight:900}
@@ -359,24 +359,24 @@ a{
   margin:27px 0 14px}
 
 .service-grid p{
-  color:#d4ddd8;
+  color:#c9d5dc;
   line-height:1.65;
   font-size:13px;
   min-height:66px}
 
 .service-grid a{
-  color:var(--sage);
+  color:var(--blue);
   font-size:12px;
   font-weight:800;
   border-bottom:1px solid currentColor;
   padding-bottom:4px}
 
 .books-card{
-  background:rgba(183,201,192,.08)}
+  background:rgba(169,211,232,.06)}
 
 .scope-note{
   grid-column:2;
-  color:#a9b9b0;
+  color:#8ea2af;
   font-size:10px;
   line-height:1.5;
   margin:20px 0 0}
@@ -397,7 +397,7 @@ a{
   display:grid;
   place-items:center;
   position:relative;
-  background:var(--sage);
+  background:var(--blue);
   overflow:hidden}
 
 .about-monogram:before,.about-monogram:after{
@@ -426,7 +426,7 @@ a{
 
 .about-monogram i{
   font:44px Georgia,serif;
-  color:var(--plum);
+  color:var(--coral);
   z-index:2}
 
 .about-copy h2{
@@ -446,7 +446,7 @@ a{
 
 
 .contact-section{
-  background:var(--plum);
+  background:var(--coral);
   padding:105px 0}
 
 .contact-inner h2{
@@ -490,7 +490,7 @@ a{
   margin:0 0 42px}
 
 .page-hero h1 em{
-  color:var(--plum);
+  color:var(--coral);
   font-weight:400}
 
 .page-hero>p:last-child{
@@ -516,7 +516,7 @@ a{
 
 .case-head>span{
   font:italic 19px Georgia,serif;
-  color:var(--plum)}
+  color:var(--coral)}
 
 .case-head h2{
   font:400 clamp(34px,4vw,54px)/1 Georgia,serif;
@@ -526,7 +526,7 @@ a{
 .case-head small{
   font-size:11px;
   letter-spacing:.08em;
-  color:#65736c;
+  color:#627381;
   text-transform:uppercase}
 
 .case-body{
@@ -541,7 +541,7 @@ a{
 
 .case-body p{
   font:15px/1.65 Georgia,serif;
-  color:#4d5752}
+  color:#354959}
 
 .case-stack{
   margin:30px 0 0 70px;
@@ -550,7 +550,7 @@ a{
   font-size:10px;
   letter-spacing:.1em;
   text-transform:uppercase;
-  color:#65776e}
+  color:#597080}
 
 
 .resume-page{
@@ -613,11 +613,11 @@ a{
 
 .resume-grid aside li:before{
   content:'—';
-  color:var(--plum);
+  color:var(--coral);
   margin-right:8px}
 
 .resume-grid aside i{
-  color:#65736c}
+  color:#5f7281}
 
 .resume-summary{
   font:22px/1.6 Georgia,serif;
@@ -639,11 +639,11 @@ a{
   font-weight:800;
   letter-spacing:.08em;
   text-transform:uppercase;
-  color:#5a7166}
+  color:#537083}
 
 .resume-main article time{
   font:italic 14px Georgia,serif;
-  color:#65776e}
+  color:#597080}
 
 .resume-main article ul{
   grid-column:1/-1;
@@ -695,7 +695,7 @@ a{
 
 .cv-item>span{
   font:italic 13px Georgia,serif;
-  color:var(--plum)}
+  color:var(--coral)}
 
 .cv-item h2{
   font:400 28px Georgia,serif;
@@ -706,7 +706,7 @@ a{
   letter-spacing:.12em;
   text-transform:uppercase;
   margin:0 0 15px;
-  color:#5a7166}
+  color:#537083}
 
 .cv-item p{
   font:14px/1.65 Georgia,serif;
@@ -715,10 +715,10 @@ a{
 
 .cv-item time{
   font:italic 13px Georgia,serif;
-  color:#65776e}
+  color:#597080}
 
 .cv-extra{
-  background:var(--sage);
+  background:var(--blue);
   padding:38px;
   margin-top:45px}
 
@@ -931,7 +931,7 @@ a{
 
 .hero-kicker {
   padding-left: 14px;
-  border-left: 2px solid var(--plum);
+  border-left: 2px solid var(--coral);
 }
 
 .button:hover,
