@@ -985,3 +985,142 @@ a{
   }
 }
 
+/* Mobile layout: designed for the phone rather than scaled from desktop. */
+@media (max-width: 620px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .shell {
+    width: calc(100% - 40px);
+  }
+
+  .site-header {
+    min-height: auto;
+    padding: 18px 20px;
+    gap: 14px;
+  }
+
+  .wordmark strong {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  .button-small {
+    min-height: 40px;
+    padding: 0 13px;
+    gap: 9px;
+    white-space: nowrap;
+  }
+
+  .hero {
+    min-height: auto;
+    padding-top: 64px;
+    padding-bottom: 72px;
+    overflow: visible;
+  }
+
+  .hero-kicker {
+    max-width: 330px;
+    margin-bottom: 38px;
+    font-size: 10px;
+    line-height: 1.55;
+    letter-spacing: 0.11em;
+  }
+
+  .hero h1 {
+    max-width: 100%;
+    margin: 0 0 38px;
+    font-size: clamp(46px, 13vw, 54px);
+    line-height: 0.96;
+    letter-spacing: -0.055em;
+  }
+
+  .hero-bottom {
+    gap: 30px;
+  }
+
+  .hero-bottom > p {
+    font-size: 18px;
+    line-height: 1.55;
+  }
+
+  .hero-actions {
+    width: 100%;
+    gap: 18px;
+  }
+
+  .hero-actions .button,
+  .hero-actions .text-link {
+    width: 100%;
+  }
+
+  .section,
+  .services-section,
+  .about-section {
+    padding-top: 72px;
+    padding-bottom: 72px;
+  }
+
+  .section-intro h2,
+  .about-copy h2 {
+    font-size: clamp(38px, 11vw, 48px);
+    line-height: 1.05;
+  }
+
+  .section-intro .lede {
+    font-size: 16px;
+  }
+
+  .project-row {
+    grid-template-columns: 30px 1fr;
+    gap: 18px;
+    padding: 28px 0;
+  }
+
+  .service-grid article {
+    padding: 32px 0;
+  }
+
+  .contact-section {
+    padding: 72px 0;
+  }
+
+  .contact-inner h2 {
+    margin-bottom: 38px;
+    font-size: clamp(50px, 15vw, 68px);
+    line-height: 0.95;
+  }
+
+  .contact-email {
+    gap: 20px;
+    font-size: 20px;
+    line-height: 1.35;
+    overflow-wrap: anywhere;
+  }
+
+  .site-footer > div:last-child {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 390px) {
+  .site-header {
+    padding-inline: 16px;
+  }
+
+  .wordmark strong {
+    font-size: 15px;
+  }
+
+  .button-small {
+    padding-inline: 11px;
+    font-size: 10px;
+  }
+
+  .hero h1 {
+    font-size: 46px;
+  }
+}
+
